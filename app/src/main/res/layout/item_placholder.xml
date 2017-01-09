@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_5">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="@dimen/margin_5"
+        android:text="Anand Python"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_15"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingLeft="@dimen/margin_5"
+        android:paddingRight="@dimen/margin_5"
+        android:paddingTop="@dimen/margin_2"
+        android:paddingBottom="@dimen/margin_5"
+        android:text="hhgh kghg jkhgh kjhjhjh jhjhj jhjhjkj"
+        android:textColor="@color/description"
+        android:textSize="@dimen/text_12" />
+
+
+</LinearLayout>

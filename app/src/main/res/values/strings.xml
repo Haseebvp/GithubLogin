@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GithubConnect</string>
+    <string name="login">SignIn</string>
+    <string name="menu_item">Logout</string>
+</resources>

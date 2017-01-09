@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.githubconnect.githubconnect.SplashSCreen"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Github Connect"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_22"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_below="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_18"
+        android:textStyle="bold"
+        android:background="@drawable/login_bg"
+        android:paddingRight="@dimen/margin_10"
+        android:paddingLeft="@dimen/margin_10"
+        android:paddingTop="@dimen/margin_5"
+        android:paddingBottom="@dimen/margin_5"
+        android:layout_margin="@dimen/margin_20"
+        android:visibility="gone"/>
+
+</RelativeLayout>
